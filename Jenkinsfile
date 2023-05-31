@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage("delete dir){
+        stage("delete dir"){
               steps{
                   deleteDir()
               }
